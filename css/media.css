@@ -1,0 +1,857 @@
+*{
+    box-sizing: border-box;
+}
+@media screen and (max-width:1200px) {
+    .store-welcome h2{
+        width: 60%;
+    }
+    .show {
+        width: 300px;
+    }
+}
+@media screen and (max-width:993px) {
+    .about-title {
+        font-size: 32px;
+    }
+    .about-desc {
+        font-size: 14px;
+    }
+    .about-left-title{
+        font-size: 23PX;
+    }
+    .services-titles h2{
+        font-size: 28px;
+    }
+    .order-img img{
+        margin: 60px 50px 30px 50px;
+    }
+    .order-info{
+        margin: 30px 0px;
+        padding-left: 20px;
+    }
+    .order-info h2{
+        font-size: 23px;
+    }
+    .order-info a{
+        margin: 20px 10px 20px 0px;
+    }
+    .store-welcome h2{
+        width: 70%;
+        font-size: 1.5rem;
+    }
+    .subscribe-title{
+        width: 100%;
+        font-size: 1.4rem;   
+    }
+    .email{
+        line-height: 40px;
+        height: 40px;
+        padding: 0 10px;
+        font-weight: 400;
+    }
+    .subscribe-info button{
+        font-size: 16px;
+        height: 40px;
+        margin: auto;
+        width: 25%;
+    }
+    .business-info{
+        width: 420px;
+        height: auto;
+        top: 100px;
+        left: 20%;
+        padding: 50px 30px 30px;
+    }
+    .business-info h4{
+        font-size: 15px;
+        margin-bottom: 17px;
+        font-weight: 400;
+    }
+    .business-info i{
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        margin-right: 20px;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .close i{
+        right: 15px;
+        top: 20px;
+        font-size: 20px;
+        width: 28px;
+        height: 28px;
+        line-height: 28px;
+    }
+    .business-info p{
+        padding-left: 70px;
+        margin: 0 0 10px;
+        font-weight: 400;
+        font-size: 13px;
+    }
+    .business-info-day{
+        font-size: 13px;
+        margin-bottom: 15px;
+        padding-left: 70px;
+    }
+    .options i{
+        font-size: 15px;
+        height: 35px;
+        line-height: 35px;
+    }
+}
+@media screen and (max-width:770px) {
+    .about-title {
+        font-size: 20px;
+    }
+    .about-desc {
+        font-size: 10px;
+    }
+    .services-titles h2{
+        font-size: 24px;
+    }
+    .order-info h2{
+        font-size: 20px;
+    }
+    .store-welcome h2{
+        width: 80%;
+        font-size: 1.2rem;
+    }
+    .store-card-item{
+        width: 250px;
+        margin: 0px auto;
+    }
+    .show{
+        margin: 10px auto 20px;
+    }
+    .subscribe-title{
+        width: 100%;
+        font-size: 1rem;
+        text-align: center;
+    }
+    .email{
+        line-height: 40px;
+        height: 40px;
+        padding: 0 10px;
+        font-size: 10px;
+        font-weight: 400;
+        width: 60%;
+    }
+    .subscribe-info button{
+        font-size: 11px;
+        line-height: 20px;
+        height: 40px;
+        margin: auto;
+        width: 30%;
+    }
+    .business-info{
+        width: 400px;
+        height: auto;
+        top: 100px;
+        left: 20%;
+        padding: 30px 20px 20px;
+    }
+    .options i{
+        font-size: 13px;
+        height: 25px;
+        line-height: 25px;
+    }
+    .options{
+        width: 40px;
+    }
+}
+@media screen and (max-width:767px) {
+    .services-titles h3 {
+        font-size: 40px;
+    }
+    .services-titles h2{
+        font-size: 20px;
+    }
+    .order-info h2{
+        font-size: 15px;
+    }
+    .order-info h6 {
+        font-weight: 400;
+        font-size: 13px;
+    }
+    .order-info{
+        padding-left: 40px;
+    }
+    .order-img img{
+        margin: 60px 60px 30px 40px;
+    }
+    .business-info{
+        width: 420px;
+        height: auto;
+        top: 100px;
+        left: 20%;
+        padding: 20px 10px 30px;
+    }
+    .business-info h4{
+        font-size: 15px;
+        margin-bottom: 7px;
+        font-weight: 400;
+    }
+    .close i{
+        right: 0px;
+        top: 0px;
+        font-size: 15px;
+        width: 24px;
+        height: 24px;
+        line-height: 24px;
+    }
+    .business-info p ,
+    .business-info-day{
+        padding-left: 60px;
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+    iframe{
+        width: 100%;
+    }
+}
+@media screen and (max-width:650px) {
+    .business-info{
+        width: 80%;
+        height: auto;
+        top: 0%;
+        left: 11%;
+        padding: 20px 10px 30px;
+        margin: 0px auto;
+    }
+    .business-info h4{
+        font-size: 20px;
+        margin-bottom: 20px;
+        font-weight: 500;
+    }
+    .business-info i{
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        margin-right: 20px;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .close i{
+        right: 0px;
+        top: 0px;
+        font-size: 20px;
+        width: 28px;
+        height: 28px;
+        line-height: 28px;
+    }
+    .business-info p{
+        padding-left: 70px;
+        margin: 0 0 10px;
+        font-weight: 400;
+        font-size: 16px;
+    }
+    .business-info-day{
+        font-size: 16px;
+        margin-bottom: 15px;
+        padding-left: 70px;
+    }
+    iframe{
+        position: absolute;
+        top: 390px;
+        left: 11%;
+        width: 80%;
+        height: 500px;
+        margin: 0px auto;
+    }
+    .footer{
+        margin-top: 900px;
+    }
+}
+@media screen and (max-width:635px) {
+    .business-info{
+        width: 80%;
+        height: auto;
+        top: 0%;
+        left: 11%;
+        padding: 20px 10px 30px;
+        margin: 0px auto;
+    }
+    iframe{
+        position: absolute;
+        top: 390px;
+        left: 12%;
+        width: 80%;
+        height: 500px;
+        margin: 0px auto;
+    }
+}
+@media screen and (max-width:600px) {
+    iframe{
+        position: absolute;
+        top: 390px;
+        left: 11%;
+        width: 80%;
+        height: 450px;
+    }
+    .footer{
+        margin-top: 800px;
+    }
+}
+@media screen and (max-width:570px) {
+    .business-info{
+        width: 80%;
+        height: auto;
+        top: 0%;
+        left: 6%;
+        padding: 20px 10px 30px;
+        margin: 0px auto;
+    }
+    iframe{
+        position: absolute;
+        top: 400px;
+        left: 6%;
+        width: 80%;
+        height: 500px;
+        margin: 0px auto;
+    }
+    .footer{
+        margin-top: 850px;
+    }
+}
+@media screen and (max-width:512px) {
+    .about-subtitle ,
+    .services-titles h3 {
+        font-size: 35px;
+    }
+    .about-left-title{
+        font-size: 18PX;
+    }
+    .about-item-info h4 ,
+    .service-item h4{
+        font-size:1.15rem;
+    }
+    .about-item-info P{
+        font-size: 14px;
+    }
+    .services-titles h2{
+        font-size: 15px;
+    }
+    .service-btn{
+        width: 150px;
+        height: 40px;
+        font-size: 13px;
+        font-weight: 600;
+    }
+    .service-btn i{
+        font-size: 13px;
+    }
+    .order-img img{
+        margin: 60px 50px; 
+        margin-bottom: 30px;
+        width: 80%;
+    }
+    .order-info{
+        padding-left: 40px;
+    }
+    .subscribe-title{
+        width: 100%;
+        font-size: .85rem;
+        text-align: center;
+    }
+    .licence{
+        font-weight: 400;
+        line-height: 1;
+        font-size: 11px;
+    }
+    .business-info{
+        width: 70%;
+        height: auto;
+        top: -50%;
+        left: 12%;
+        padding: 20px 10px 30px;
+        margin: 0px auto;
+    }
+    .business-info i{
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        margin-right: 20px;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .business-info h4{
+        font-size: 15px;
+        margin-bottom: 20px;
+        font-weight: 500;
+    }
+    .business-info p{
+        padding-left: 50px;
+        margin: 0 0 10px;
+        font-weight: 400;
+        font-size: 12px;
+    }
+    .business-info-day{
+        font-size: 12px;
+        padding-left: 50px;
+    }
+    iframe{
+        position: absolute;
+        top: 360px;
+        left: 11%;
+        width: 70%;
+        height: 400px;
+        margin: 0px auto;
+    }
+    .footer{
+        margin-top: 700px;
+    }
+}
+@media screen and (max-width:450px) {
+    .top {
+        width: 40px;
+        height: 40px;
+        bottom: 0;
+        right: 0;
+    }
+    .about-title {
+        font-size: 15px;
+    }
+    .about-item-info h4 ,
+    .service-item h4{
+        font-size:1rem;
+    }
+    .about-item-info P{
+        font-size: 10px;
+    }
+    .services-titles h2{
+        font-size: 13px;
+    }
+    .order-img img{
+        margin: 30px 40px;
+        width: 80%;
+    }
+    .order-info a{
+        font-size: 12px;
+        padding: 10px 20px;
+    }
+    .store-welcome h2{
+        width: 90%;
+        font-size: 1rem;
+    }
+    .show {
+        width: 250px;
+    }
+    .subscribe-title{
+        width: 100%;
+        font-size: .65rem;
+        text-align: center;
+    }
+    .email{
+        line-height: 30px;
+        height: 30px;
+        padding: 0 10px;
+        font-size: 10px;
+        font-weight: 100;
+        width: 60%;
+    }
+    .subscribe-info button{
+        font-size: 10px;
+        line-height: 15px;
+        height: 30px;
+        margin: auto;
+        width: 30%;
+    }
+    .licence{
+        font-weight: 100;
+        line-height: 1;
+        font-size: 10px;
+    }
+    .business-info{
+        width: 80%;
+        height: auto;
+        top: -50%;
+        left: 12%;
+        padding: 20px 10px 30px;
+        margin: 0px auto;
+    }
+    iframe{
+        position: absolute;
+        top: 360px;
+        left: 11%;
+        width: 80%;
+        height: 400px;
+        margin: 0px auto;
+    }
+    .options i{
+        font-size: 11px;
+        height: 20px;
+        line-height: 20px;
+    }
+    .options{
+        width: 30px;
+    }
+}
+@media screen and (max-width:345px) {
+    .about-subtitle ,
+    .services-titles h3{
+        font-size: 25px;
+    }
+    .about-title {
+        font-size: 12px;
+    }
+    .about-desc {
+        font-size: 8px;
+    }
+    .about-left-title{
+        font-size: 13PX;
+        font-weight: 400;
+    }
+    .about-item-info h4 ,
+    .service-item h4{
+        font-size:.8rem;
+    }
+    .services-titles h2{
+        font-size: 10px;
+    }
+    .service-item p ,
+    .service-item a{
+        font-size: 13px;
+    }
+    .store-welcome h2{
+        width: 90%;
+        font-size: .8rem;
+    }
+    .show {
+        width: 220px;
+    }
+    .user{ 
+        font-size: 25px;
+    }
+    .show h5{
+        font-size: 1rem;
+    }
+    .job{
+        font-size: 15px;
+    }
+    .show h4{
+        font-size: 1rem;
+        font-weight: 500;
+        letter-spacing: .01em;
+        margin-bottom: 10px;
+    }
+    .msg{
+        font-size: 12px;
+        margin-top: 5px;
+        margin-bottom: 6px;
+    }
+    .show span{
+        font-size: 12px;
+    }
+    .business-info i{
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        margin-right: 15px;
+        font-size: 17px;
+        font-weight: 200;
+    }
+    .business-info h4{
+        font-size: 13px;
+        margin-bottom: 17px;
+        font-weight: 400;
+    }
+    .business-info p{
+        padding-left: 30px;
+        margin: 0 0 10px;
+        font-weight: 400;
+        font-size: 11px;
+    }
+    .business-info-day{
+        font-size: 11px;
+        padding-left: 30px;
+    }
+    .options i{
+        font-size: 10px;
+        height: 15px;
+        line-height: 15px;
+    }
+    .options{
+        width: 20px;
+    }
+}
+@media screen and (max-width:290px) {
+    .services-item h2{
+        font-size: 9px;
+    }
+    .service-item p ,
+    .service-item a{
+        font-size: 10px;
+    }
+    .store-card-item{
+        width: 200px;
+        margin: 0px auto;
+    }
+    .store-card li h2{
+        font-size: 1rem;
+    }
+    .store-card-item bdi{
+        font-size: 13px;
+    }
+    .store-card-item span {
+        font-size: 15px;
+    }
+    .store-btn{
+        padding: 13px 17px;      
+        font-size: 11px;
+        font-weight: 400;
+    }
+}
+@media screen and (max-width:280px) {
+    .top {
+        width: 30px;
+        height: 30px;
+        bottom: 0;
+        right: 0;
+    }
+    .about-title {
+        font-size: 9px;
+    }
+    .about-item-info h4 ,
+    .service-item h4{
+        font-size:.7rem;
+    }
+    .about-item-info P{
+        font-size: 8px;
+    }
+    .about-item-info{
+        margin-left: 35px;
+    }
+    .services-titles h2{
+        font-size: 9.5px;
+    }
+    .order-img img{
+        margin: 30px 20px;
+        width: 80%;
+    }
+    .order-info{
+        padding-left: 20px;
+    }
+    .store-welcome h2{
+        width: 95%;
+        font-size: .7rem;
+    }
+    .show {
+        width: 200px;
+    }
+    .user{ 
+        font-size: 12.5px;
+    }
+    .show h5{
+        font-size: .8rem;
+    }
+    .job{
+        font-size: 13px;
+    }
+    .show h4{
+        font-size: .7rem;
+        font-weight: 100;
+        letter-spacing: .01em;
+        margin-bottom: 7px;
+    }
+    .msg{
+        font-size: 10px;
+        margin-top: 4px;
+        margin-bottom: 3px;
+    }
+    .show span{
+        font-size: 9px;
+    }
+    .subscribe-info form{
+        flex-direction: column;
+    }
+    .email{
+        line-height: 20px;
+        height: 20px;
+        padding: 0 10px;
+        font-size: 10px;
+        font-weight: 100;
+        width: 70%;
+    }
+    .subscribe-info button{
+        font-size: 10px;
+        line-height: 5px;
+        height: 20px;
+        width: 30%;
+        font-size: 8px;
+    }
+    .business-info i{
+        width: 20px;
+        height: 20px;
+        line-height: 20px;
+        margin-right: 15px;
+        font-size: 15px;
+        font-weight: 100;
+    }
+    .business-info h4{
+        font-size: 13px;
+        margin-bottom: 15px;
+        font-weight: 400;
+    }
+    .business-info p{
+        padding-left: 20px;
+        margin: 0 0 10px;
+        font-weight: 200;
+        font-size: 10px;
+    }
+    .business-info-day{
+        font-size: 10px;
+        padding-left: 20px;
+    }
+    .footer h6{
+        font-size: .8rem    ;
+    }
+    .footer a ,
+    .footer p{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width:247px) {
+    .about-item-info h4 ,
+    .service-item h4{
+        font-size:.6rem;
+    }
+    .about-item-info{
+        margin-left: 30px;
+    }
+    .services-titles h3{
+        font-size: 24px;
+    }
+    .service-item p ,
+    .service-item a{
+        font-size: 8px;
+    }
+    .business-info i{
+        width: 15px;
+        height: 15px;
+        line-height: 15px;
+        margin-right: 10px;
+        font-size: 13px;
+        font-weight: 100;
+    }
+    .business-info h4{
+        font-size: 12px;
+        margin-bottom: 13px;
+        font-weight: 300;
+    }
+    .business-info p{
+        padding-left: 15px;
+        margin: 0 0 10px;
+        font-weight: 100;
+        font-size: 10px;
+    }
+    .business-info-day{
+        font-size: 10px;
+        padding-left: 15px;
+    }
+}
+@media screen and (max-width:233px) {
+    .services-titles h3{
+        font-size: 20px;
+    }
+    .store-card-item{
+        width: 150px;
+        margin: 0px auto;
+    }
+    .store-card li h2{
+        font-size: .8rem;
+    }
+    .store-card-item bdi{
+        font-size: 12px;
+    }
+    .store-card-item span {
+        bottom: 0;
+        font-size: 12px;
+    }
+    .store-card li button{
+        font-weight: 100;
+        width: 100px;
+    }
+    .show {
+        width: 150px;
+    }
+    .user{ 
+        font-size: 11px;
+    }
+    .show h5{
+        font-size: .7rem;
+    }
+    .job{
+        font-size: 10px;
+    }
+    .show h4{
+        font-size: .6rem;
+        margin-bottom: 3px;
+    }
+    .msg{
+        font-size: 8px;
+        margin-top: 2px;
+        margin-bottom: 1px;
+    }
+    .show span{
+        font-size: 9px;
+    }
+}
+@media screen and (max-width:230px) {
+    .about-subtitle {
+        font-size: 20px;
+    }
+    .about-left-title{
+        font-size: 10PX;
+        font-weight: 400;
+    }
+    .about-item-info{
+        margin-left: 20px;
+    }
+    .store-welcome h2{
+        width: 99%;
+        font-size: .6rem;
+    }
+    .subscribe-info button{
+        font-size: 10px;
+        line-height: 5px;
+        height: 20px;
+        width: 30%;
+        font-size: 6px;
+    }
+    .licence{
+        line-height: 1;
+        font-size: 8px;
+    }
+    .business-info i{
+        width: 10px;
+        height: 10px;
+        line-height: 10px;
+        margin-right: 5px;
+        font-size: 12px;
+        font-weight: 100;
+        border: none;
+    }
+    .business-info h4{
+        font-size: 11px;
+        margin-bottom: 10px;
+        font-weight: 200;
+    }
+    .business-info p{
+        padding-left: 10px;
+        margin: 0 0 10px;
+        font-weight: 100;
+        font-size: 10px;
+    }
+    .business-info-day{
+        font-size: 10px;
+        padding-left: 10px;
+    }
+    .footer h6{
+        font-size: .6rem    ;
+    }
+    .footer a ,
+    .footer p{
+        font-size: 10px;
+    }
+}
